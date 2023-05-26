@@ -1,0 +1,23 @@
+body {
+  margin: 20px;
+}
+
+/* Estilos para la tabla */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Estilos para los nombres de los items */
+.resaltado {
+  background: linear-gradient(to right, green, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
